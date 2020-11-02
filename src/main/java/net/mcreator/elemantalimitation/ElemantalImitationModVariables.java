@@ -84,6 +84,9 @@ public class ElemantalImitationModVariables {
 		public static final String DATA_NAME = "elemantal_imitation_mapvars";
 		public ItemStack Power = ItemStack.EMPTY;
 		public boolean MenuOn = false;
+		public double Mana = 0;
+		public double Water = 0;
+		public double WaterInStorage = 0;
 		public MapVariables() {
 			super(DATA_NAME);
 		}
@@ -96,12 +99,18 @@ public class ElemantalImitationModVariables {
 		public void read(CompoundNBT nbt) {
 			Power = ItemStack.read(nbt.getCompound("Power"));
 			MenuOn = nbt.getBoolean("MenuOn");
+			Mana = nbt.getDouble("Mana");
+			Water = nbt.getDouble("Water");
+			WaterInStorage = nbt.getDouble("WaterInStorage");
 		}
 
 		@Override
 		public CompoundNBT write(CompoundNBT nbt) {
 			nbt.put("Power", Power.write(new CompoundNBT()));
 			nbt.putBoolean("MenuOn", MenuOn);
+			nbt.putDouble("Mana", Mana);
+			nbt.putDouble("Water", Water);
+			nbt.putDouble("WaterInStorage", WaterInStorage);
 			return nbt;
 		}
 

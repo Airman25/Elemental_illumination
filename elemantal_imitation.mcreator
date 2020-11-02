@@ -58,18 +58,6 @@
             "type": "entity"
           },
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
             "name": "world",
             "type": "world"
           }
@@ -302,6 +290,167 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "charged_magic_gem"
+    },
+    {
+      "name": "WaterPickaxeBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_pickaxe_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WaterPickaxe",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_pickaxe"
+    },
+    {
+      "name": "WaterPickaxeToolInHandTick",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_pickaxe_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagicWaterRightClickedInAir",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_water_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagicWaterRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_water_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagicalLiquidStorage",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magical_liquid_storage"
+    },
+    {
+      "name": "MagicalLiquidStorageR",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magical_liquid_storage_r"
+    },
+    {
+      "name": "MagicalLiquidStorageG",
+      "type": "gui",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magical_liquid_storage_g"
+    },
+    {
+      "name": "MagicalLiquidStorageUpdateTick",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magical_liquid_storage_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -316,6 +465,24 @@
       "type": "logic",
       "scope": "map",
       "value": "false"
+    },
+    {
+      "name": "Mana",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Water",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "WaterInStorage",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
     }
   ],
   "sound_elements": [],
@@ -324,10 +491,12 @@
       "item.elemantal_imitation.magic_earth": "Magic Earth",
       "item.elemantal_imitation.magic_gem_gem": "MagicGem",
       "block.elemantal_imitation.magic_creator": "Magic Creator",
+      "block.elemantal_imitation.magical_liquid_storage": "Magical Liquid Storage",
       "block.elemantal_imitation.magic_gem_ore_block": "Block of MagicGem",
       "item.elemantal_imitation.charged_magic_gem": "Charged Magic Gem",
       "key.mcreator.super_power_choose": "Super Power Choose",
       "item.elemantal_imitation.base_magic": "Base Magic",
+      "item.elemantal_imitation.water_pickaxe": "Water Pickaxe",
       "itemGroup.tabmagic": "Magic",
       "item.elemantal_imitation.magic_fire": "Magic Fire",
       "block.elemantal_imitation.magic_gem_ore": "MagicGem Ore",
