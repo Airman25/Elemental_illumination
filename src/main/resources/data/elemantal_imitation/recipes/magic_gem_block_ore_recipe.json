@@ -1,0 +1,13 @@
+{
+  "group": "elemantal_imitation",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "elemantal_imitation:magic_gem_ore_block"
+    }
+  ],
+  "result": {
+    "item": "elemantal_imitation:magic_gem_gem",
+    "count": 9
+  }
+}

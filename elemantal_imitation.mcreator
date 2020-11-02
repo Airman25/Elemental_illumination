@@ -1,0 +1,288 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "SuperPowerChoose",
+      "type": "keybind",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "super_power_choose"
+    },
+    {
+      "name": "SuperPowerChooseOnKeyPressed",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "super_power_choose_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SuperPowerOnOff",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "super_power_on_off",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SuperPower",
+      "type": "gui",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "super_power"
+    },
+    {
+      "name": "MagicEarth",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_earth"
+    },
+    {
+      "name": "Magic",
+      "type": "tab",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic"
+    },
+    {
+      "name": "MagicWater",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_water"
+    },
+    {
+      "name": "MagicFire",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_fire"
+    },
+    {
+      "name": "MagicAir",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_air"
+    },
+    {
+      "name": "MagicEarthR",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_earth_r"
+    },
+    {
+      "name": "MagicWaterR",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_water_r"
+    },
+    {
+      "name": "MagicFireR",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_fire_r"
+    },
+    {
+      "name": "MagicAirR",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_air_r"
+    },
+    {
+      "name": "BaseMagic",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "base_magic"
+    },
+    {
+      "name": "BaseMagicR",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "base_magic_r"
+    },
+    {
+      "name": "MagicGemGem",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_gem_gem"
+    },
+    {
+      "name": "MagicGemOre",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_gem_ore"
+    },
+    {
+      "name": "MagicGemOreBlock",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_gem_ore_block"
+    },
+    {
+      "name": "MagicGemOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_gem_ore_block_recipe"
+    },
+    {
+      "name": "MagicGemBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_gem_block_ore_recipe"
+    },
+    {
+      "name": "MagicGemOreSmelting",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_gem_ore_smelting"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Power",
+      "type": "itemstack",
+      "scope": "map",
+      "value": ""
+    },
+    {
+      "name": "MenuOn",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabmagic": "Magic",
+      "item.elemantal_imitation.magic_earth": "Magic Earth",
+      "item.elemantal_imitation.magic_fire": "Magic Fire",
+      "item.elemantal_imitation.magic_gem_gem": "MagicGem",
+      "block.elemantal_imitation.magic_gem_ore": "MagicGem Ore",
+      "block.elemantal_imitation.magic_gem_ore_block": "Block of MagicGem",
+      "item.elemantal_imitation.magic_air": "Magic Air",
+      "key.mcreator.super_power_choose": "Super Power Choose",
+      "item.elemantal_imitation.magic_water": "Magic Water",
+      "item.elemantal_imitation.base_magic": "Base Magic"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "elemantal_imitation",
+    "modName": "elemantal imitation",
+    "version": "1.0.0",
+    "author": "edmun, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.elemantalimitation",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}

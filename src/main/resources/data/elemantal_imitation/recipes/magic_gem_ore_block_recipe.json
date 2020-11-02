@@ -1,0 +1,42 @@
+{
+  "group": "elemantal_imitation",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "elemantal_imitation:magic_gem_gem"
+    },
+    "1": {
+      "item": "elemantal_imitation:magic_gem_gem"
+    },
+    "2": {
+      "item": "elemantal_imitation:magic_gem_gem"
+    },
+    "3": {
+      "item": "elemantal_imitation:magic_gem_gem"
+    },
+    "4": {
+      "item": "elemantal_imitation:magic_gem_gem"
+    },
+    "5": {
+      "item": "elemantal_imitation:magic_gem_gem"
+    },
+    "6": {
+      "item": "elemantal_imitation:magic_gem_gem"
+    },
+    "7": {
+      "item": "elemantal_imitation:magic_gem_gem"
+    },
+    "8": {
+      "item": "elemantal_imitation:magic_gem_gem"
+    }
+  },
+  "result": {
+    "item": "elemantal_imitation:magic_gem_ore_block",
+    "count": 1
+  }
+}

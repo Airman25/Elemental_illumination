@@ -1,0 +1,16 @@
+{
+  "group": "elemantal_imitation",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "elemantal_imitation:magic_earth"
+    }
+  },
+  "result": {
+    "item": "elemantal_imitation:magic_earth",
+    "count": 1
+  }
+}
