@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "free",
+    "texture": "magicair",
     "customModelName": "Normal",
     "name": "Magic Air",
     "creativeTab": {

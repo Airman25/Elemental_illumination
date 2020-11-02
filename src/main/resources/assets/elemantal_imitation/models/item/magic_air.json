@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "elemantal_imitation:items/free"
+    "layer0": "elemantal_imitation:items/magicair"
   }
 }

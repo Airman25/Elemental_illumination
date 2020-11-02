@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "magicbase",
+    "texture": "magicgem",
     "customModelName": "Normal",
-    "name": "Base Magic",
+    "name": "Charged Magic Gem",
     "creativeTab": {
       "value": "MISC"
     },
@@ -20,7 +20,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [],
-    "hasGlow": false,
+    "hasGlow": true,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64

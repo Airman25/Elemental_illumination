@@ -1,0 +1,42 @@
+{
+  "group": "elemantal_imitation",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "elemantal_imitation:magic_gem_gem"
+    },
+    "1": {
+      "item": "minecraft:golden_apple"
+    },
+    "2": {
+      "item": "elemantal_imitation:magic_gem_gem"
+    },
+    "3": {
+      "item": "minecraft:enchanted_book"
+    },
+    "4": {
+      "item": "minecraft:iron_block"
+    },
+    "5": {
+      "item": "minecraft:ender_pearl"
+    },
+    "6": {
+      "item": "elemantal_imitation:magic_gem_gem"
+    },
+    "7": {
+      "item": "minecraft:redstone_block"
+    },
+    "8": {
+      "item": "elemantal_imitation:magic_gem_gem"
+    }
+  },
+  "result": {
+    "item": "elemantal_imitation:magic_creator",
+    "count": 1
+  }
+}

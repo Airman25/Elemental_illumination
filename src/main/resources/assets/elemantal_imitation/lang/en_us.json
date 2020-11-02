@@ -1,12 +1,14 @@
 {
-  "itemGroup.tabmagic": "Magic",
   "item.elemantal_imitation.magic_earth": "Magic Earth",
-  "item.elemantal_imitation.magic_fire": "Magic Fire",
   "item.elemantal_imitation.magic_gem_gem": "MagicGem",
-  "block.elemantal_imitation.magic_gem_ore": "MagicGem Ore",
+  "block.elemantal_imitation.magic_creator": "Magic Creator",
   "block.elemantal_imitation.magic_gem_ore_block": "Block of MagicGem",
-  "item.elemantal_imitation.magic_air": "Magic Air",
+  "item.elemantal_imitation.charged_magic_gem": "Charged Magic Gem",
   "key.mcreator.super_power_choose": "Super Power Choose",
-  "item.elemantal_imitation.magic_water": "Magic Water",
-  "item.elemantal_imitation.base_magic": "Base Magic"
+  "item.elemantal_imitation.base_magic": "Base Magic",
+  "itemGroup.tabmagic": "Magic",
+  "item.elemantal_imitation.magic_fire": "Magic Fire",
+  "block.elemantal_imitation.magic_gem_ore": "MagicGem Ore",
+  "item.elemantal_imitation.magic_air": "Magic Air",
+  "item.elemantal_imitation.magic_water": "Magic Water"
 }

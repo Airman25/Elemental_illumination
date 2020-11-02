@@ -237,6 +237,71 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "magic_gem_ore_smelting"
+    },
+    {
+      "name": "MagicCreator",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_creator"
+    },
+    {
+      "name": "MagicCreatorG",
+      "type": "gui",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_creator_g"
+    },
+    {
+      "name": "MagicCreatorUpdateTick",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_creator_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagicCreatorR",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_creator_r"
+    },
+    {
+      "name": "ChargedMagicGem",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charged_magic_gem"
     }
   ],
   "variable_elements": [
@@ -256,16 +321,18 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tabmagic": "Magic",
       "item.elemantal_imitation.magic_earth": "Magic Earth",
-      "item.elemantal_imitation.magic_fire": "Magic Fire",
       "item.elemantal_imitation.magic_gem_gem": "MagicGem",
-      "block.elemantal_imitation.magic_gem_ore": "MagicGem Ore",
+      "block.elemantal_imitation.magic_creator": "Magic Creator",
       "block.elemantal_imitation.magic_gem_ore_block": "Block of MagicGem",
-      "item.elemantal_imitation.magic_air": "Magic Air",
+      "item.elemantal_imitation.charged_magic_gem": "Charged Magic Gem",
       "key.mcreator.super_power_choose": "Super Power Choose",
-      "item.elemantal_imitation.magic_water": "Magic Water",
-      "item.elemantal_imitation.base_magic": "Base Magic"
+      "item.elemantal_imitation.base_magic": "Base Magic",
+      "itemGroup.tabmagic": "Magic",
+      "item.elemantal_imitation.magic_fire": "Magic Fire",
+      "block.elemantal_imitation.magic_gem_ore": "MagicGem Ore",
+      "item.elemantal_imitation.magic_air": "Magic Air",
+      "item.elemantal_imitation.magic_water": "Magic Water"
     }
   },
   "workspaceSettings": {

@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "magicgem_gem",
+    "texture": "magicgem",
     "customModelName": "Normal",
     "name": "MagicGem",
     "creativeTab": {
