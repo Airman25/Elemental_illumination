@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "magicwater",
+    "texture": "magicfire",
     "customModelName": "Normal",
     "name": "Water Pickaxe",
     "specialInfo": [],
@@ -23,10 +23,10 @@
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onItemInUseTick": {
-      "name": "WaterPickaxeToolInHandTick"
+      "name": "FirePickaxeInHadnTick"
     },
     "onBlockDestroyedWithTool": {
-      "name": "WaterPickaxeBlockDestroyedWithTool"
+      "name": "FirePickaxeBlockDestroyed"
     }
   }
 }

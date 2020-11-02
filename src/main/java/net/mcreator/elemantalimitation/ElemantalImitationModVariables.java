@@ -87,6 +87,7 @@ public class ElemantalImitationModVariables {
 		public double Mana = 0;
 		public double Water = 0;
 		public double WaterInStorage = 0;
+		public double Fire = 0;
 		public MapVariables() {
 			super(DATA_NAME);
 		}
@@ -102,6 +103,7 @@ public class ElemantalImitationModVariables {
 			Mana = nbt.getDouble("Mana");
 			Water = nbt.getDouble("Water");
 			WaterInStorage = nbt.getDouble("WaterInStorage");
+			Fire = nbt.getDouble("Fire");
 		}
 
 		@Override
@@ -111,6 +113,7 @@ public class ElemantalImitationModVariables {
 			nbt.putDouble("Mana", Mana);
 			nbt.putDouble("Water", Water);
 			nbt.putDouble("WaterInStorage", WaterInStorage);
+			nbt.putDouble("Fire", Fire);
 			return nbt;
 		}
 

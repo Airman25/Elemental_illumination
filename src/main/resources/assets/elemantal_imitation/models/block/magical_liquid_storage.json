@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "elemantal_imitation:blocks/free",
-    "up": "elemantal_imitation:blocks/free",
-    "north": "elemantal_imitation:blocks/free",
-    "east": "elemantal_imitation:blocks/free",
-    "south": "elemantal_imitation:blocks/",
-    "west": "elemantal_imitation:blocks/free",
-    "particle": "elemantal_imitation:blocks/free"
+    "down": "elemantal_imitation:blocks/imported_piskel_2",
+    "up": "elemantal_imitation:blocks/imported_piskel",
+    "north": "elemantal_imitation:blocks/imported_piskel",
+    "east": "elemantal_imitation:blocks/imported_piskel",
+    "south": "elemantal_imitation:blocks/imported_piskel",
+    "west": "elemantal_imitation:blocks/imported_piskel",
+    "particle": "elemantal_imitation:blocks/imported_piskel_2"
   }
 }

@@ -14,8 +14,8 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.elemantalimitation.procedures.WaterPickaxeToolInHandTickProcedure;
-import net.mcreator.elemantalimitation.procedures.WaterPickaxeBlockDestroyedWithToolProcedure;
+import net.mcreator.elemantalimitation.procedures.FirePickaxeInHadnTickProcedure;
+import net.mcreator.elemantalimitation.procedures.FirePickaxeBlockDestroyedProcedure;
 import net.mcreator.elemantalimitation.itemgroup.MagicItemGroup;
 import net.mcreator.elemantalimitation.ElemantalImitationModElements;
 
@@ -23,11 +23,11 @@ import java.util.Map;
 import java.util.HashMap;
 
 @ElemantalImitationModElements.ModElement.Tag
-public class WaterPickaxeItem extends ElemantalImitationModElements.ModElement {
-	@ObjectHolder("elemantal_imitation:water_pickaxe")
+public class FirePickaxeItem extends ElemantalImitationModElements.ModElement {
+	@ObjectHolder("elemantal_imitation:fire_pickaxe")
 	public static final Item block = null;
-	public WaterPickaxeItem(ElemantalImitationModElements instance) {
-		super(instance, 27);
+	public FirePickaxeItem(ElemantalImitationModElements instance) {
+		super(instance, 39);
 	}
 
 	@Override
@@ -65,9 +65,13 @@ public class WaterPickaxeItem extends ElemantalImitationModElements.ModElement {
 				int z = pos.getZ();
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("entity", entity);
 					$_dependencies.put("itemstack", itemstack);
+					$_dependencies.put("x", x);
+					$_dependencies.put("y", y);
+					$_dependencies.put("z", z);
 					$_dependencies.put("world", world);
-					WaterPickaxeBlockDestroyedWithToolProcedure.executeProcedure($_dependencies);
+					FirePickaxeBlockDestroyedProcedure.executeProcedure($_dependencies);
 				}
 				return retval;
 			}
@@ -83,9 +87,9 @@ public class WaterPickaxeItem extends ElemantalImitationModElements.ModElement {
 					$_dependencies.put("entity", entity);
 					$_dependencies.put("itemstack", itemstack);
 					$_dependencies.put("world", world);
-					WaterPickaxeToolInHandTickProcedure.executeProcedure($_dependencies);
+					FirePickaxeInHadnTickProcedure.executeProcedure($_dependencies);
 				}
 			}
-		}.setRegistryName("water_pickaxe"));
+		}.setRegistryName("fire_pickaxe"));
 	}
 }

@@ -2,15 +2,18 @@
   "item.elemantal_imitation.magic_earth": "Magic Earth",
   "item.elemantal_imitation.magic_gem_gem": "MagicGem",
   "block.elemantal_imitation.magic_creator": "Magic Creator",
+  "enchantment.elemantal_imitation.furnacing": "Furnacing",
   "block.elemantal_imitation.magical_liquid_storage": "Magical Liquid Storage",
   "block.elemantal_imitation.magic_gem_ore_block": "Block of MagicGem",
   "item.elemantal_imitation.charged_magic_gem": "Charged Magic Gem",
+  "item.elemantal_imitation.fire_pickaxe": "Water Pickaxe",
   "key.mcreator.super_power_choose": "Super Power Choose",
   "item.elemantal_imitation.base_magic": "Base Magic",
   "item.elemantal_imitation.water_pickaxe": "Water Pickaxe",
   "itemGroup.tabmagic": "Magic",
   "item.elemantal_imitation.magic_fire": "Magic Fire",
   "block.elemantal_imitation.magic_gem_ore": "MagicGem Ore",
+  "block.elemantal_imitation.magical_liquid_storage_empty": "Magical Liquid Storage",
   "item.elemantal_imitation.magic_air": "Magic Air",
   "item.elemantal_imitation.magic_water": "Magic Water"
 }

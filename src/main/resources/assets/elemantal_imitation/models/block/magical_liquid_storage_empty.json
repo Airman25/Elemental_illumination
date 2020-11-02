@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "elemantal_imitation:blocks/imported_piskel_2",
+    "up": "elemantal_imitation:blocks/imported_piskel_1",
+    "north": "elemantal_imitation:blocks/imported_piskel_1",
+    "east": "elemantal_imitation:blocks/imported_piskel_1",
+    "south": "elemantal_imitation:blocks/imported_piskel_1",
+    "west": "elemantal_imitation:blocks/imported_piskel_1",
+    "particle": "elemantal_imitation:blocks/imported_piskel_2"
+  }
+}
